@@ -1,6 +1,4 @@
 streamlit 
-requests
-sgp4
 folium
 streamlit-folium
-pandas
+
