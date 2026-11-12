@@ -1,4 +1,1 @@
-streamlit 
-folium
-streamlit-folium
-
+streamlit
