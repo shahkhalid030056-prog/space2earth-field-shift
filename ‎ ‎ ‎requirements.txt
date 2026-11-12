@@ -3,4 +3,4 @@ requests
 sgp4
 folium
 streamlit-folium
-pands
+pandas
