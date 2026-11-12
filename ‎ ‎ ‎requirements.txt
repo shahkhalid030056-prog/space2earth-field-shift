@@ -1,6 +1,6 @@
-streamlit
-request
-sgpy
+streamlit 
+requests
+sgp4
 folium
-streamilt-folium
-pandas
+streamlit-folium
+pands
