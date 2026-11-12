@@ -1,23 +1,13 @@
 import streamlit as st
-‎import folium
-‎from streamlit_folium import st_folium
 ‎
-‎st.set_page_config(page_title="Space2Earth - Field Shift", layout="wide")
+‎st.set_page_config(page_title="Space2Earth", layout="wide")
 ‎
-‎st.title("🌾 Space2Earth - Field Shift")
-‎st.markdown("### Peshawar Agriculture Monitoring")
+‎st.title("Space2Earth - Field Shift")
+‎st.subheader("Peshawar Agriculture Monitoring LIVE!")
 ‎
-‎Peshawar coordinates
-‎lat, lon = 34.0151, 71.5249
+‎st.success("App is now LIVE! No errors!")
 ‎
-‎m = folium.Map(location=[lat, lon], zoom_start=12)
-‎folium.Marker(
-‎    [lat, lon], 
-‎    popup="Peshawar Field",
-‎    tooltip="Your Farm Location"
-‎).add_to(m)
+‎st.map(data=[{"lat": 34.0151, "lon": 71.5249}], zoom=10)
 ‎
-‎st_folium(m, width=700, height=500)
-‎
-‎st.success("✅ App is LIVE! No more Flask error!")
-‎st.write("Your satellite monitoring will be shown here.")
+‎st.write("Peshawar: 34.0151, 71.5249")
+‎st.balloons()
