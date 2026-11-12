@@ -1,4 +1,6 @@
-flask
-‎requests
-‎gunicon
-‎
+streamlit
+request
+sgpy
+folium
+streamilt-folium
+pandas
