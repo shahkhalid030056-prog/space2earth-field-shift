@@ -5,4 +5,4 @@ import streamlit as st
 ‎st.success("App is now LIVE! No errors!")
 ‎st.map(data=[{"lat": 34.0151, "lon": 71.5249}], zoom=10)
 ‎st.write("Peshawar: 34.0151, 71.5249")
-‎st.balloons()
+‎st.balloons()‎
